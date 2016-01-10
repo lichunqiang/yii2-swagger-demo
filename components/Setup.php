@@ -9,6 +9,11 @@ class Setup implements \yii\base\BootstrapInterface
         $app->getUrlManager()->addRules([
             [
                 'class' => 'yii\web\UrlRule',
+                'pattern' => '',
+                'route' => 'site/doc',
+            ],
+            [
+                'class' => 'yii\web\UrlRule',
                 'pattern' => 'site/<action:\w+>',
                 'route' => 'site/<action>'
             ]

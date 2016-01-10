@@ -24,7 +24,7 @@
         "yiisoft/yii2-debug": "*",
         "yiisoft/yii2-gii": "*",
         "yiisoft/yii2-faker": "*",
-        "light/yii2-swagger": "~0.2.3"
+        "light/yii2-swagger": "~1.0.0"
     },
     "config": {
         "process-timeout": 1800

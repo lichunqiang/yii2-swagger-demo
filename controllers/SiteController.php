@@ -2,12 +2,13 @@
 
 namespace app\controllers;
 
+use app\models\ContactForm;
+use app\models\LoginForm;
 use Yii;
 use yii\filters\AccessControl;
-use yii\web\Controller;
 use yii\filters\VerbFilter;
-use app\models\LoginForm;
-use app\models\ContactForm;
+use yii\helpers\Url as url;
+use yii\web\Controller;
 
 class SiteController extends Controller
 {
@@ -46,7 +47,7 @@ class SiteController extends Controller
             ],
             'doc' => [
                 'class' => 'light\swagger\SwaggerAction',
-                'restUrl' => \yii\helpers\Url::to(['/site/api'], true),
+                'restUrl' => url::to(['/site/api'], true),
             ],
             'api' => [
                 'class' => 'light\swagger\SwaggerApiAction',
