@@ -2,6 +2,7 @@
 
 namespace app\modules\v1\controllers;
 
+use Yii;
 use yii\rest\Controller;
 
 class UserController extends Controller
@@ -30,8 +31,8 @@ class UserController extends Controller
     public function actionIndex()
     {
         return [
-            'errcode' => 0,
-            'errmsg' => 'success',
+            'action' => $this->action->id,
+            'items' => [],
         ];
     }
 
@@ -58,9 +59,10 @@ class UserController extends Controller
      *     @SWG\Parameter(
      *        in = "query",
      *        name = "sex",
-     *        description = "性别 1. 男 2.女 此项为非必填项",
+     *        description = "性别 1. 男 2.女 此项为非必填项.展示成select",
      *        required = false,
-     *        type = "string"
+     *        type = "integer",
+     *        enum = {1, 2}
      *     ),
      *
      *     @SWG\Response(
@@ -72,7 +74,10 @@ class UserController extends Controller
      */
     public function actionCreate()
     {
-        return \Yii::$app->request->get();
+        return [
+            'action' => $this->action->id,
+            'post_data' => Yii::$app->getRequest()->post(),
+        ];
     }
 
     /**
@@ -105,23 +110,71 @@ class UserController extends Controller
      *     @SWG\Parameter(
      *        in = "formData",
      *        name = "sex",
-     *        description = "性别 1. 男 2.女 此项为非必填项",
+     *        description = "性别 1. 男 2.女 此项为非必填项.这里指定了一个默认项，那么会默认选中",
      *        required = false,
-     *        type = "string"
+     *        type = "integer",
+     *        default = 1,
+     *        enum = {1, 2}
      *     ),
+     *     @SWG\Parameter(
+     *        in = "formData",
+     *        name = "job",
+     *        description = "这里可以设置默认值",
+     *        required = false,
+     *        type = "string",
+     *      default = "程序猿"
+     *    ),
+     *     @SWG\Parameter(
+     *        in = "formData",
+     *        name = "avatar",
+     *        description = "类型设置为`file`则可以展示上传按钮，在后端和普通上传一样处理",
+     *        required = false,
+     *        type = "file"
+     *    ),
      *
      *     @SWG\Response(
      *         response = 200,
      *         description = " success"
      *     )
      * )
+     * @param integer $id
      *
+     * @return array
      */
     public function actionUpdate($id)
     {
         return [
+            'action' => $this->action->id,
             'user_id' => $id,
-            'post_data' => \Yii::$app->request->post(),
+            'post_data' => Yii::$app->request->post(),
+        ];
+    }
+
+    /**
+     * @SWG\Post(
+     *	path = "/users/query",
+     *	tags = {"user"},
+     *	operationId = "QueryUser",
+     *	summary = "删除用户",
+     *	description = "这里展示一个稍微高端点的用法",
+     *	produces = {"application/json"},
+     *	consumes = {"application/json"},
+     *	@SWG\Parameter(
+     *		in = "body",
+     *		name = "body",
+     *		description = "这里要主要配置`request`组件的parsers，来支持接收这个类型的请求",
+     *		required = true,
+     *		type = "string",
+     *      @SWG\Schema(ref = "#/definitions/UserIdList")
+     *    ),
+     *	@SWG\Response(response = 200, description = "success")
+     *)
+     */
+    public function actionQuery()
+    {
+        return [
+            'action' => $this->action->id,
+            'data' => Yii::$app->request->post(),
         ];
     }
 }

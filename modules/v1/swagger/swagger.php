@@ -5,7 +5,7 @@ namespace api\modules\v1\swagger;
 /**
  * @SWG\Swagger(
  *     schemes={"http"},
- *     host="127.0.0.1:8000",
+ *     host="localhost:8080",
  *     basePath="/v1",
  *     @SWG\Info(
  *         version="1.0.0",
