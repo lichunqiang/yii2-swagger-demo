@@ -4,6 +4,7 @@ namespace app\modules\v1\controllers;
 
 use Yii;
 use yii\rest\Controller;
+use yii\rest\OptionsAction;
 
 class UserController extends Controller
 {
@@ -68,6 +69,11 @@ class UserController extends Controller
      *     @SWG\Response(
      *         response = 200,
      *         description = " success"
+     *     ),
+     *     @SWG\Response(
+     *         response = 401,
+     *         description = "需要重新登陆",
+     *         @SWG\Schema(ref="#/definitions/Error")
      *     )
      * )
      *
@@ -135,6 +141,11 @@ class UserController extends Controller
      *     @SWG\Response(
      *         response = 200,
      *         description = " success"
+     *     ),
+     *     @SWG\Response(
+     *         response = 401,
+     *         description = "需要重新登陆",
+     *         @SWG\Schema(ref="#/definitions/Error")
      *     )
      * )
      * @param integer $id
@@ -175,6 +186,29 @@ class UserController extends Controller
         return [
             'action' => $this->action->id,
             'data' => Yii::$app->request->post(),
+        ];
+    }
+
+    /**
+     * @SWG\Options(
+     *	path = "/users",
+     *	tags = {"user"},
+     *	operationId = "userOptions",
+     *	summary = "options",
+     *	produces = {"application/json"},
+     *	consumes = {"application/json"},
+     *	@SWG\Response(
+     *     response = 200,
+     *     description = "success",
+     *     @SWG\Header(header="Allow", type="GET, POST, HEAD, OPTIONS"),
+     *     @SWG\Header(header="Content-Type", type="application/json; charset=UTF-8")
+     *  )
+     *)
+     */
+    public function actions()
+    {
+        return [
+            'options' => OptionsAction::class,
         ];
     }
 }

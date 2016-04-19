@@ -3,6 +3,24 @@
 namespace app\models\v1\swagger;
 
 /**
+ * @SWG\Definition(
+ *      definition="Error",
+ *      required={"code", "message"},
+ *      @SWG\Property(
+ *          property="code",
+ *          type="integer",
+ *          format="int32",
+ *          example=401
+ *      ),
+ *      @SWG\Property(
+ *          property="message",
+ *          type="string",
+ *          example="You are requesting with an invalid credential."
+ *      )
+ * )
+ */
+
+/**
  * @SWG\Definition(required={"id"}, @SWG\Xml(name="Id"))
  */
 class Id
