@@ -23,15 +23,6 @@ namespace api\modules\v1\swagger;
  *     url="http://swagger.io"
  *   )
  * )
- *
- * @SWG\SecurityScheme(
- *   securityDefinition="api_key",
- *   type="apiKey",
- *   in="query",
- *   name="access_token",
- *   description="the descripotion",
- *   flow = "accessCode"
- * )
  */
 
 /**

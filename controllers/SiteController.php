@@ -56,7 +56,7 @@ class SiteController extends Controller
                     Yii::getAlias('@app/modules/v1/controllers'),
                     Yii::getAlias('@app/modules/v1/models'),
                 ],
-                // 'api_key' => 'test'
+                 'api_key' => 'test'
             ],
         ];
     }
