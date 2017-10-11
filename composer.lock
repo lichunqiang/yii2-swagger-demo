@@ -53,7 +53,8 @@
                 "mobile-first",
                 "responsive",
                 "web"
-            ]
+            ],
+            "time": "2016-07-25T15:51:55+00:00"
         },
         {
             "name": "bower-asset/jquery",
@@ -84,20 +85,21 @@
                 "javascript",
                 "jquery",
                 "library"
-            ]
+            ],
+            "time": "2016-05-20T17:24:43+00:00"
         },
         {
             "name": "bower-asset/jquery.inputmask",
-            "version": "3.3.4",
+            "version": "3.3.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/RobinHerbots/Inputmask.git",
-                "reference": "8a882bc471ba4077c4f8ecbe3d9d61c7558f3ef2"
+                "reference": "1fadb54be8a94e879fd1e9693b5222fb36aea04f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RobinHerbots/Inputmask/zipball/8a882bc471ba4077c4f8ecbe3d9d61c7558f3ef2",
-                "reference": "8a882bc471ba4077c4f8ecbe3d9d61c7558f3ef2",
+                "url": "https://api.github.com/repos/RobinHerbots/Inputmask/zipball/1fadb54be8a94e879fd1e9693b5222fb36aea04f",
+                "reference": "1fadb54be8a94e879fd1e9693b5222fb36aea04f",
                 "shasum": ""
             },
             "require": {
@@ -106,30 +108,36 @@
             "type": "bower-asset-library",
             "extra": {
                 "bower-asset-main": [
-                    "./dist/inputmask/inputmask.dependencyLib",
-                    "./dist/inputmask/inputmask",
-                    "./dist/inputmask/inputmask.extensions",
-                    "./dist/inputmask/inputmask.date.extensions",
-                    "./dist/inputmask/inputmask.numeric.extensions",
-                    "./dist/inputmask/inputmask.phone.extensions",
-                    "./dist/inputmask/inputmask.regex.extensions",
-                    "./dist/inputmask/jquery.inputmask"
+                    "./dist/inputmask/inputmask.js",
+                    "./dist/inputmask/inputmask.extensions.js",
+                    "./dist/inputmask/inputmask.date.extensions.js",
+                    "./dist/inputmask/inputmask.numeric.extensions.js",
+                    "./dist/inputmask/inputmask.phone.extensions.js",
+                    "./dist/inputmask/jquery.inputmask.js",
+                    "./dist/inputmask/global/document.js",
+                    "./dist/inputmask/global/window.js",
+                    "./dist/inputmask/phone-codes/phone.js",
+                    "./dist/inputmask/phone-codes/phone-be.js",
+                    "./dist/inputmask/phone-codes/phone-nl.js",
+                    "./dist/inputmask/phone-codes/phone-ru.js",
+                    "./dist/inputmask/phone-codes/phone-uk.js",
+                    "./dist/inputmask/dependencyLibs/inputmask.dependencyLib.jqlite.js",
+                    "./dist/inputmask/dependencyLibs/inputmask.dependencyLib.jquery.js",
+                    "./dist/inputmask/dependencyLibs/inputmask.dependencyLib.js",
+                    "./dist/inputmask/bindings/inputmask.binding.js"
                 ],
                 "bower-asset-ignore": [
                     "**/*",
                     "!dist/*",
                     "!dist/inputmask/*",
                     "!dist/min/*",
-                    "!dist/min/inputmask/*",
-                    "!extra/bindings/*",
-                    "!extra/dependencyLibs/*",
-                    "!extra/phone-codes/*"
+                    "!dist/min/inputmask/*"
                 ]
             },
             "license": [
                 "http://opensource.org/licenses/mit-license.php"
             ],
-            "description": "jquery.inputmask is a jquery plugin which create an input mask.",
+            "description": "Inputmask is a javascript library which creates an input mask.  Inputmask can run against vanilla javascript, jQuery and jqlite.",
             "keywords": [
                 "form",
                 "input",
@@ -137,7 +145,8 @@
                 "jquery",
                 "mask",
                 "plugins"
-            ]
+            ],
+            "time": "2017-10-10T12:47:01+00:00"
         },
         {
             "name": "bower-asset/punycode",
@@ -165,20 +174,21 @@
                     "node_modules",
                     "package.json"
                 ]
-            }
+            },
+            "time": "2014-10-22T12:02:42+00:00"
         },
         {
             "name": "bower-asset/yii2-pjax",
-            "version": "v2.0.6",
+            "version": "v2.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/jquery-pjax.git",
-                "reference": "60728da6ade5879e807a49ce59ef9a72039b8978"
+                "reference": "885fc8c2d36c93a801b6af0ee8ad55d79df97cb1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/jquery-pjax/zipball/60728da6ade5879e807a49ce59ef9a72039b8978",
-                "reference": "60728da6ade5879e807a49ce59ef9a72039b8978",
+                "url": "https://api.github.com/repos/yiisoft/jquery-pjax/zipball/885fc8c2d36c93a801b6af0ee8ad55d79df97cb1",
+                "reference": "885fc8c2d36c93a801b6af0ee8ad55d79df97cb1",
                 "shasum": ""
             },
             "require": {
@@ -199,20 +209,21 @@
             },
             "license": [
                 "MIT"
-            ]
+            ],
+            "time": "2017-09-27T10:22:38+00:00"
         },
         {
             "name": "cebe/markdown",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cebe/markdown.git",
-                "reference": "c30eb5e01fe021cc5bba2f9ee0eeef96d4931166"
+                "reference": "25b28bae8a6f185b5030673af77b32e1163d5c6e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cebe/markdown/zipball/c30eb5e01fe021cc5bba2f9ee0eeef96d4931166",
-                "reference": "c30eb5e01fe021cc5bba2f9ee0eeef96d4931166",
+                "url": "https://files.phpcomposer.com/files/cebe/markdown/25b28bae8a6f185b5030673af77b32e1163d5c6e.zip",
+                "reference": "25b28bae8a6f185b5030673af77b32e1163d5c6e",
                 "shasum": ""
             },
             "require": {
@@ -259,24 +270,138 @@
                 "markdown",
                 "markdown-extra"
             ],
-            "time": "2016-09-14T20:40:20+00:00"
+            "time": "2017-07-16T21:13:23+00:00"
         },
         {
-            "name": "ezyang/htmlpurifier",
-            "version": "v4.8.0",
+            "name": "doctrine/lexer",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ezyang/htmlpurifier.git",
-                "reference": "d0c392f77d2f2a3dcf7fcb79e2a1e2b8804e75b2"
+                "url": "https://github.com/doctrine/lexer.git",
+                "reference": "83893c552fd2045dd78aef794c31e694c37c0b8c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/d0c392f77d2f2a3dcf7fcb79e2a1e2b8804e75b2",
-                "reference": "d0c392f77d2f2a3dcf7fcb79e2a1e2b8804e75b2",
+                "url": "https://files.phpcomposer.com/files/doctrine/lexer/83893c552fd2045dd78aef794c31e694c37c0b8c.zip",
+                "reference": "83893c552fd2045dd78aef794c31e694c37c0b8c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Doctrine\\Common\\Lexer\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com"
+                }
+            ],
+            "description": "Base library for a lexer that can be used in Top-Down, Recursive Descent Parsers.",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "lexer",
+                "parser"
+            ],
+            "time": "2014-09-09T13:34:57+00:00"
+        },
+        {
+            "name": "egulias/email-validator",
+            "version": "2.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/egulias/EmailValidator.git",
+                "reference": "bc31baa11ea2883e017f0a10d9722ef9d50eac1c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/egulias/EmailValidator/bc31baa11ea2883e017f0a10d9722ef9d50eac1c.zip",
+                "reference": "bc31baa11ea2883e017f0a10d9722ef9d50eac1c",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/lexer": "^1.0.1",
+                "php": ">= 5.5"
+            },
+            "require-dev": {
+                "dominicsayers/isemail": "dev-master",
+                "phpunit/phpunit": "^4.8.0",
+                "satooshi/php-coveralls": "dev-master"
+            },
+            "suggest": {
+                "ext-intl": "PHP Internationalization Libraries are required to use the SpoofChecking validation"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Egulias\\EmailValidator\\": "EmailValidator"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Eduardo Gulias Davis"
+                }
+            ],
+            "description": "A library for validating emails against several RFCs",
+            "homepage": "https://github.com/egulias/EmailValidator",
+            "keywords": [
+                "email",
+                "emailvalidation",
+                "emailvalidator",
+                "validation",
+                "validator"
+            ],
+            "time": "2017-01-30T22:07:36+00:00"
+        },
+        {
+            "name": "ezyang/htmlpurifier",
+            "version": "v4.9.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ezyang/htmlpurifier.git",
+                "reference": "95e1bae3182efc0f3422896a3236e991049dac69"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/ezyang/htmlpurifier/95e1bae3182efc0f3422896a3236e991049dac69.zip",
+                "reference": "95e1bae3182efc0f3422896a3236e991049dac69",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.2"
+            },
+            "require-dev": {
+                "simpletest/simpletest": "^1.1"
             },
             "type": "library",
             "autoload": {
@@ -303,33 +428,34 @@
             "keywords": [
                 "html"
             ],
-            "time": "2016-07-16T12:58:58+00:00"
+            "time": "2017-06-03T02:28:16+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v5.4.6",
+            "version": "v6.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "81fdccfaf8bdc5d5d7a1ef6bb3a61bbb1a6c4a3e"
+                "reference": "412333372fb6c8ffb65496a2bbd7321af75733fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/81fdccfaf8bdc5d5d7a1ef6bb3a61bbb1a6c4a3e",
-                "reference": "81fdccfaf8bdc5d5d7a1ef6bb3a61bbb1a6c4a3e",
+                "url": "https://files.phpcomposer.com/files/swiftmailer/swiftmailer/412333372fb6c8ffb65496a2bbd7321af75733fc.zip",
+                "reference": "412333372fb6c8ffb65496a2bbd7321af75733fc",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3"
+                "egulias/email-validator": "~2.0",
+                "php": ">=7.0.0"
             },
             "require-dev": {
                 "mockery/mockery": "~0.9.1",
-                "symfony/phpunit-bridge": "~3.2"
+                "symfony/phpunit-bridge": "~3.3@dev"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.4-dev"
+                    "dev-master": "6.0-dev"
                 }
             },
             "autoload": {
@@ -351,31 +477,31 @@
                 }
             ],
             "description": "Swiftmailer, free feature-rich PHP mailer",
-            "homepage": "http://swiftmailer.org",
+            "homepage": "http://swiftmailer.symfony.com",
             "keywords": [
                 "email",
                 "mail",
                 "mailer"
             ],
-            "time": "2017-02-13T07:52:53+00:00"
+            "time": "2017-09-30T22:39:41+00:00"
         },
         {
             "name": "yiisoft/yii2",
-            "version": "2.0.11.2",
+            "version": "2.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "ee996adec1dfd7babb67bd0c604f5bd6425fe5ab"
+                "reference": "70acbecc75cb26b6cd66d16be0b06e4b73db190d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/ee996adec1dfd7babb67bd0c604f5bd6425fe5ab",
-                "reference": "ee996adec1dfd7babb67bd0c604f5bd6425fe5ab",
+                "url": "https://files.phpcomposer.com/files/yiisoft/yii2-framework/70acbecc75cb26b6cd66d16be0b06e4b73db190d.zip",
+                "reference": "70acbecc75cb26b6cd66d16be0b06e4b73db190d",
                 "shasum": ""
             },
             "require": {
                 "bower-asset/jquery": "2.2.*@stable | 2.1.*@stable | 1.11.*@stable | 1.12.*@stable",
-                "bower-asset/jquery.inputmask": "~3.2.2 | ~3.3.3",
+                "bower-asset/jquery.inputmask": "~3.2.2 | ~3.3.5",
                 "bower-asset/punycode": "1.3.*",
                 "bower-asset/yii2-pjax": "~2.0.1",
                 "cebe/markdown": "~1.0.0 | ~1.1.0",
@@ -457,34 +583,30 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2017-02-08T09:04:32+00:00"
+            "time": "2017-06-05T14:33:41+00:00"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
-            "version": "2.0.6",
+            "version": "2.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-bootstrap.git",
-                "reference": "3fd2b8c950cce79d60e9702d6bcb24eb3c80f6c5"
+                "reference": "02a54d868343ed11d02f0f0f8cbbecb590e0cb3f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/3fd2b8c950cce79d60e9702d6bcb24eb3c80f6c5",
-                "reference": "3fd2b8c950cce79d60e9702d6bcb24eb3c80f6c5",
+                "url": "https://files.phpcomposer.com/files/yiisoft/yii2-bootstrap/02a54d868343ed11d02f0f0f8cbbecb590e0cb3f.zip",
+                "reference": "02a54d868343ed11d02f0f0f8cbbecb590e0cb3f",
                 "shasum": ""
             },
             "require": {
                 "bower-asset/bootstrap": "3.3.* | 3.2.* | 3.1.*",
-                "yiisoft/yii2": ">=2.0.6"
+                "yiisoft/yii2": "~2.0.6"
             },
             "type": "yii2-extension",
             "extra": {
                 "branch-alias": {
                     "dev-master": "2.0.x-dev"
-                },
-                "asset-installer-paths": {
-                    "npm-asset-library": "vendor/npm",
-                    "bower-asset-library": "vendor/bower"
                 }
             },
             "autoload": {
@@ -507,7 +629,7 @@
                 "bootstrap",
                 "yii2"
             ],
-            "time": "2016-03-17T03:29:28+00:00"
+            "time": "2017-10-09T19:48:22+00:00"
         },
         {
             "name": "yiisoft/yii2-composer",
@@ -519,7 +641,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-composer/zipball/3f4923c2bde6caf3f5b88cc22fdd5770f52f8df2",
+                "url": "https://files.phpcomposer.com/files/yiisoft/yii2-composer/3f4923c2bde6caf3f5b88cc22fdd5770f52f8df2.zip",
                 "reference": "3f4923c2bde6caf3f5b88cc22fdd5770f52f8df2",
                 "shasum": ""
             },
@@ -561,20 +683,20 @@
         },
         {
             "name": "yiisoft/yii2-swiftmailer",
-            "version": "2.0.6",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-swiftmailer.git",
-                "reference": "26b900767f1031ff3a4668dfa36c10595875f0a5"
+                "reference": "563570c9aa19ca47c1b22e3032983229378e9274"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-swiftmailer/zipball/26b900767f1031ff3a4668dfa36c10595875f0a5",
-                "reference": "26b900767f1031ff3a4668dfa36c10595875f0a5",
+                "url": "https://files.phpcomposer.com/files/yiisoft/yii2-swiftmailer/563570c9aa19ca47c1b22e3032983229378e9274.zip",
+                "reference": "563570c9aa19ca47c1b22e3032983229378e9274",
                 "shasum": ""
             },
             "require": {
-                "swiftmailer/swiftmailer": "~5.0",
+                "swiftmailer/swiftmailer": "~6.0",
                 "yiisoft/yii2": "~2.0.4"
             },
             "type": "yii2-extension",
@@ -607,7 +729,7 @@
                 "swiftmailer",
                 "yii2"
             ],
-            "time": "2016-09-09T11:48:11+00:00"
+            "time": "2017-08-04T10:48:17+00:00"
         }
     ],
     "packages-dev": [
@@ -646,7 +768,8 @@
             "keywords": [
                 "API",
                 "Swagger"
-            ]
+            ],
+            "time": "2017-01-05T08:57:09+00:00"
         },
         {
             "name": "bower-asset/typeahead.js",
@@ -673,25 +796,26 @@
             "type": "bower-asset-library",
             "extra": {
                 "bower-asset-main": "dist/typeahead.bundle.js"
-            }
+            },
+            "time": "2015-04-27T04:02:14+00:00"
         },
         {
             "name": "doctrine/annotations",
-            "version": "v1.4.0",
+            "version": "v1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/annotations.git",
-                "reference": "54cacc9b81758b14e3ce750f205a393d52339e97"
+                "reference": "5beebb01b025c94e93686b7a0ed3edae81fe3e7f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/annotations/zipball/54cacc9b81758b14e3ce750f205a393d52339e97",
-                "reference": "54cacc9b81758b14e3ce750f205a393d52339e97",
+                "url": "https://files.phpcomposer.com/files/doctrine/annotations/5beebb01b025c94e93686b7a0ed3edae81fe3e7f.zip",
+                "reference": "5beebb01b025c94e93686b7a0ed3edae81fe3e7f",
                 "shasum": ""
             },
             "require": {
                 "doctrine/lexer": "1.*",
-                "php": "^5.6 || ^7.0"
+                "php": "^7.1"
             },
             "require-dev": {
                 "doctrine/cache": "1.*",
@@ -700,7 +824,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4.x-dev"
+                    "dev-master": "1.5.x-dev"
                 }
             },
             "autoload": {
@@ -741,87 +865,35 @@
                 "docblock",
                 "parser"
             ],
-            "time": "2017-02-24T16:22:25+00:00"
+            "time": "2017-07-22T10:58:02+00:00"
         },
         {
-            "name": "doctrine/lexer",
-            "version": "v1.0.1",
+            "name": "fzaninotto/faker",
+            "version": "v1.7.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/doctrine/lexer.git",
-                "reference": "83893c552fd2045dd78aef794c31e694c37c0b8c"
+                "url": "https://github.com/fzaninotto/Faker.git",
+                "reference": "d3ed4cc37051c1ca52d22d76b437d14809fc7e0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/lexer/zipball/83893c552fd2045dd78aef794c31e694c37c0b8c",
-                "reference": "83893c552fd2045dd78aef794c31e694c37c0b8c",
+                "url": "https://files.phpcomposer.com/files/fzaninotto/Faker/d3ed4cc37051c1ca52d22d76b437d14809fc7e0d.zip",
+                "reference": "d3ed4cc37051c1ca52d22d76b437d14809fc7e0d",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.2"
+                "php": "^5.3.3 || ^7.0"
+            },
+            "require-dev": {
+                "ext-intl": "*",
+                "phpunit/phpunit": "^4.0 || ^5.0",
+                "squizlabs/php_codesniffer": "^1.5"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+                    "dev-master": "1.8-dev"
                 }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Doctrine\\Common\\Lexer\\": "lib/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Roman Borschel",
-                    "email": "roman@code-factory.org"
-                },
-                {
-                    "name": "Guilherme Blanco",
-                    "email": "guilhermeblanco@gmail.com"
-                },
-                {
-                    "name": "Johannes Schmitt",
-                    "email": "schmittjoh@gmail.com"
-                }
-            ],
-            "description": "Base library for a lexer that can be used in Top-Down, Recursive Descent Parsers.",
-            "homepage": "http://www.doctrine-project.org",
-            "keywords": [
-                "lexer",
-                "parser"
-            ],
-            "time": "2014-09-09T13:34:57+00:00"
-        },
-        {
-            "name": "fzaninotto/faker",
-            "version": "v1.6.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "44f9a286a04b80c76a4e5fb7aad8bb539b920123"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/44f9a286a04b80c76a4e5fb7aad8bb539b920123",
-                "reference": "44f9a286a04b80c76a4e5fb7aad8bb539b920123",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^5.3.3|^7.0"
-            },
-            "require-dev": {
-                "ext-intl": "*",
-                "phpunit/phpunit": "~4.0",
-                "squizlabs/php_codesniffer": "~1.5"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": []
             },
             "autoload": {
                 "psr-4": {
@@ -843,20 +915,20 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2016-04-29T12:21:54+00:00"
+            "time": "2017-08-15T16:48:10+00:00"
         },
         {
             "name": "light/yii2-swagger",
-            "version": "1.0.4",
+            "version": "1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lichunqiang/yii2-swagger.git",
-                "reference": "e4ec63446c807fa1c379f11b21bb275a78e227d8"
+                "reference": "30837106931730e81300a7cc9d5e2928942f1b88"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lichunqiang/yii2-swagger/zipball/e4ec63446c807fa1c379f11b21bb275a78e227d8",
-                "reference": "e4ec63446c807fa1c379f11b21bb275a78e227d8",
+                "url": "https://files.phpcomposer.com/files/lichunqiang/yii2-swagger/30837106931730e81300a7cc9d5e2928942f1b88.zip",
+                "reference": "30837106931730e81300a7cc9d5e2928942f1b88",
                 "shasum": ""
             },
             "require": {
@@ -893,7 +965,7 @@
                 "swagger",
                 "yii2"
             ],
-            "time": "2017-03-03T06:03:00+00:00"
+            "time": "2017-04-18T05:44:04+00:00"
         },
         {
             "name": "phpspec/php-diff",
@@ -905,7 +977,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/php-diff/zipball/0464787bfa7cd13576c5a1e318709768798bec6a",
+                "url": "https://files.phpcomposer.com/files/phpspec/php-diff/0464787bfa7cd13576c5a1e318709768798bec6a.zip",
                 "reference": "0464787bfa7cd13576c5a1e318709768798bec6a",
                 "shasum": ""
             },
@@ -935,25 +1007,25 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v3.2.4",
+            "version": "v3.3.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "8c71141cae8e2957946b403cc71a67213c0380d6"
+                "reference": "773e19a491d97926f236942484cb541560ce862d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/8c71141cae8e2957946b403cc71a67213c0380d6",
-                "reference": "8c71141cae8e2957946b403cc71a67213c0380d6",
+                "url": "https://files.phpcomposer.com/files/symfony/finder/773e19a491d97926f236942484cb541560ce862d.zip",
+                "reference": "773e19a491d97926f236942484cb541560ce862d",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5.9"
+                "php": "^5.5.9|>=7.0.8"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.2-dev"
+                    "dev-master": "3.3-dev"
                 }
             },
             "autoload": {
@@ -980,20 +1052,20 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2017-01-02T20:32:22+00:00"
+            "time": "2017-10-02T06:42:24+00:00"
         },
         {
             "name": "yiisoft/yii2-debug",
-            "version": "2.0.9",
+            "version": "2.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-debug.git",
-                "reference": "647be6c9d48dc2f3c2e2f33b9eba0a4ca78abde9"
+                "reference": "93082f46d3568b4431a26f264e0d16a12c42bd50"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/647be6c9d48dc2f3c2e2f33b9eba0a4ca78abde9",
-                "reference": "647be6c9d48dc2f3c2e2f33b9eba0a4ca78abde9",
+                "url": "https://files.phpcomposer.com/files/yiisoft/yii2-debug/93082f46d3568b4431a26f264e0d16a12c42bd50.zip",
+                "reference": "93082f46d3568b4431a26f264e0d16a12c42bd50",
                 "shasum": ""
             },
             "require": {
@@ -1027,7 +1099,7 @@
                 "debugger",
                 "yii2"
             ],
-            "time": "2017-02-21T10:30:50+00:00"
+            "time": "2017-10-09T20:30:01+00:00"
         },
         {
             "name": "yiisoft/yii2-faker",
@@ -1039,7 +1111,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-faker/zipball/b88ca69ee226a3610b2c26c026c3203d7ac50f6c",
+                "url": "https://files.phpcomposer.com/files/yiisoft/yii2-faker/b88ca69ee226a3610b2c26c026c3203d7ac50f6c.zip",
                 "reference": "b88ca69ee226a3610b2c26c026c3203d7ac50f6c",
                 "shasum": ""
             },
@@ -1086,7 +1158,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/1bd6df6804ca077ec022587905a0d43eb286f507",
+                "url": "https://files.phpcomposer.com/files/yiisoft/yii2-gii/1bd6df6804ca077ec022587905a0d43eb286f507.zip",
                 "reference": "1bd6df6804ca077ec022587905a0d43eb286f507",
                 "shasum": ""
             },
@@ -1131,16 +1203,16 @@
         },
         {
             "name": "zircote/swagger-php",
-            "version": "2.0.9",
+            "version": "2.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zircote/swagger-php.git",
-                "reference": "b0b136e3c51c8b05d78a0ea3f1b60cd331cc3544"
+                "reference": "d010ab67536784f8b578cb4ba7d15c906f3e1a45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zircote/swagger-php/zipball/b0b136e3c51c8b05d78a0ea3f1b60cd331cc3544",
-                "reference": "b0b136e3c51c8b05d78a0ea3f1b60cd331cc3544",
+                "url": "https://files.phpcomposer.com/files/zircote/swagger-php/d010ab67536784f8b578cb4ba7d15c906f3e1a45.zip",
+                "reference": "d010ab67536784f8b578cb4ba7d15c906f3e1a45",
                 "shasum": ""
             },
             "require": {
@@ -1189,7 +1261,7 @@
                 "rest",
                 "service discovery"
             ],
-            "time": "2017-02-22T23:16:25+00:00"
+            "time": "2017-08-16T08:32:59+00:00"
         }
     ],
     "aliases": [],
